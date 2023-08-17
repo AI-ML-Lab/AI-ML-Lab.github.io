@@ -1,0 +1,25 @@
+{
+    "nodes": [
+      { "id": 0, "name": "ac_aprendizaje-semisupervisado", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_aprendizaje-semisupervisado" },
+      { "id": 1, "name": "ac_computervision", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_computervision" },
+      { "id": 2, "name": "ac_contexto-datospublicos", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_contexto-datospublicos" },
+      { "id": 3, "name": "ac_explicabilidad", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_explicabilidad" },
+      { "id": 4, "name": "ac_llm", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_llm" },
+      { "id": 5, "name": "ac_pronosticos", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_pronosticos" },
+      { "id": 6, "name": "de_llm", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/de_llm" },
+      { "id": 7, "name": "de_mia-langchain", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/de_mia-langchain"},
+      { "id": 8, "name": "pr_aeromexico-pronostico", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/pr_aeromexico-pronostico"}
+    ],
+    "links": [
+      { "source": 0, "target": 1 },
+      { "source": 0, "target": 4 },
+      { "source": 2, "target": 3 },
+      { "source": 2, "target": 8 },
+      { "source": 3, "target": 8 },
+      { "source": 4, "target": 6 },
+      { "source": 4, "target": 7 },
+      { "source": 5, "target": 3 },
+      { "source": 5, "target": 8 }
+    ]
+  }
+  
