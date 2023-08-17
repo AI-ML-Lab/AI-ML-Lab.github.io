@@ -5,7 +5,7 @@ const svg = d3.select('#graph')
     .attr('width', width)
     .attr('height', height);
 
-d3.json('data.json').then(data => {
+d3.json('data/data.json').then(data => {
   const nodes = data.nodes;
   const links = data.links;
   
