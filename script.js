@@ -36,12 +36,12 @@ d3.json('data/data.json').then(data => {
     .style('opacity', 0.5);
   
   function handleMouseOver(d) {
-    d3.select(this).attr('r', 15); // Increase node size on mouseover
+    d3.select(this).attr('r',  d => (Math.sqrt(d.commits) * 2)+5); // Increase node size on mouseover
     d3.select(this).append('title').text(d => d.name); 
   }
   
   function handleMouseOut(d) {
-    d3.select(this).attr('r', 10);
+    d3.select(this).attr('r', d3.forceLink(links).id(d => d.id));
     tooltip.transition().duration(500).style('opacity', 0);
   }
 
