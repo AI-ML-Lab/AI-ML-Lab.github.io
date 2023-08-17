@@ -1,14 +1,14 @@
 {
     "nodes": [
-      { "id": 0, "name": "ac_aprendizaje-semisupervisado", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_aprendizaje-semisupervisado" },
-      { "id": 1, "name": "ac_computervision", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_computervision" },
-      { "id": 2, "name": "ac_contexto-datospublicos", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_contexto-datospublicos" },
-      { "id": 3, "name": "ac_explicabilidad", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_explicabilidad" },
-      { "id": 4, "name": "ac_llm", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_llm" },
-      { "id": 5, "name": "ac_pronosticos", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_pronosticos" },
-      { "id": 6, "name": "de_llm", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/de_llm" },
-      { "id": 7, "name": "de_mia-langchain", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/de_mia-langchain"},
-      { "id": 8, "name": "pr_aeromexico-pronostico", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/pr_aeromexico-pronostico"}
+      { "id": 0, "commits": 20, "name": "ac_aprendizaje-semisupervisado", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_aprendizaje-semisupervisado" },
+      { "id": 1, "commits": 45, "name": "ac_computervision", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_computervision" },
+      { "id": 2, "commits": 7, "name": "ac_contexto-datospublicos", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_contexto-datospublicos" },
+      { "id": 3, "commits": 21, "name": "ac_explicabilidad", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_explicabilidad" },
+      { "id": 4, "commits": 140, "name": "ac_llm", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_llm" },
+      { "id": 5, "commits": 122, "name": "ac_pronosticos", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/ac_pronosticos" },
+      { "id": 6, "commits": 16, "name": "de_llm", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/de_llm" },
+      { "id": 7, "commits": 209, "name": "de_mia-langchain", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/de_mia-langchain"},
+      { "id": 8, "commits": 14, "name": "pr_aeromexico-pronostico", "url": "https://bitbucket.indra.es/projects/GT_PLAIMX/repos/pr_aeromexico-pronostico"}
     ],
     "links": [
       { "source": 0, "target": 1 },

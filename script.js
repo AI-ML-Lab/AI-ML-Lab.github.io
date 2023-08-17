@@ -23,7 +23,7 @@ d3.json('data/data.json').then(data => {
     .data(nodes)
     .enter().append('circle')
     .attr('class', 'node')
-    .attr('r', 10)
+    .attr('r', d => Math.sqrt(d.commits) * 2)
     .on('mouseover', handleMouseOver) // Add mouseover event handler
     .on('mouseout', handleMouseOut)
     .on('click', (event, d) => handleNodeClick(event, d));  // Add click event handler
